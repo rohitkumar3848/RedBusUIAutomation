@@ -47,6 +47,7 @@ public class RedBusSteps {
     }
     @Then("user selects first available seat successfully")
     public void user_selects_first_available_seat_successfully() {
+        selectSeatPage.displaySoldAndUnsoldSeat();
         result = selectSeatPage.selectFirstAvailableSeat();
         Assert.assertTrue(result, "Seat was not selected successfully!");
     }

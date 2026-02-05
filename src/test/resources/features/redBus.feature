@@ -15,4 +15,4 @@ Feature: Red Bus Seat Booking Module
     Examples:
       | from    | fromSug | to        | toSug     | day | month    | year | busName               |
       | Kolkata | Kolkata | Siliguri  | Siliguri | 15  | February | 2026 | Lokenath Bus Service |
-      | Durgapur| Durgapur (West Bengal) | Kolkata  | Kolkata | 5  | February | 2026 | Express Line (Karunamoyee) |
+#      | Delhi | Delhi | Indore  | Indore | 7  | February | 2026 | Raj Ratan Tours And Travels |
